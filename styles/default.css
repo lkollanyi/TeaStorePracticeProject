@@ -1,0 +1,225 @@
+
+/* 
+Contents 
+    1. Global
+    2. Header
+    3. Mission
+    4. Featured Tea
+    5. Locations
+    6. Footer
+*/
+
+/* 1. GLOBAL  11111111111111111111111111111111111111 */
+
+html {
+    box-sizing: border-box;
+    background-color: black;
+    opacity: 0.9;
+}
+
+
+html > * {
+    opacity: 0.6;
+}
+
+
+/* Typography - global*/
+
+* {
+    box-sizing: inherit;
+    font-family: Helvetica, arial, sans-serif;
+    font-size: 22px;
+
+    color: seashell;
+    text-align: center;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+/* 2. HEADER STYLES  22222222222222222222222222222222222222222222  */
+header {
+    height: 69px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    border-bottom: 1px solid seashell;
+    flex-wrap: wrap;
+    background-color: black;
+    z-index: 10;
+
+}
+
+.logo {
+    height: 50px;
+    margin-right: auto;
+    margin-left: 10px;
+    overflow: hidden;
+    
+}
+
+.logo img {
+    max-height: 100%;
+    width: auto;
+}
+
+
+
+header nav {
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center; 
+    margin-right: 10px;x 
+
+}
+
+/* 3. MISSION STYLES 3333333333333333333333333333333333333333 */
+
+#mission {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    background-image: url("../img/mission-background-1200x800.webp");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+.hero-banner {
+    width: 100%;
+    background-color: black;
+}
+
+/* 4. FEATURED TEA GALLERY STYLES 44444444444444444444444444444444 */
+
+#featured {
+    width: 1000px;
+    margin: 70px auto;
+
+}
+
+#featured .cardsection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+#featured .cards {
+    flex: 0 0 300px;
+}
+
+#featured p {
+    margin: 10px;
+}
+
+#featured img {
+    height: 200px;
+    width: 300px;
+}
+
+/* 5. LOCATIONS STYLES 555555555555555555555555555555555555555 */
+
+#locations {
+    height: 500px;
+    width: 1200px;
+    background-image: url("../img/background-location-1200x795.webp");
+    background-size: cover;
+    background-position: center 25%;
+    /* padding: 20px; */
+   /*  padding-top: 40px; */
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+#locations .buffer-start, #locations .buffer-end {
+    flex: 1;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#locations .buffer-start h2 {
+    margin: 0.5rem;
+}
+
+#locations .cardsection {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-location {
+    width: 300px;
+    height: 300px;
+    margin: 15px 40px;
+    background-color: black;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+
+
+/* 6. FOOTER STYLES 666666666666666666666666666666666666666666666 */
+
+footer .copyright {
+
+    margin-left: 20px;
+}
+
+footer .copyright h5 {
+    text-align: left;
+}
+
+
